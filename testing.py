@@ -8,7 +8,7 @@ st.title("Streamlit Research Study Dashboard")
 
 #Create a sample data frame
 data = pd.Datadrame({
-    "x": np.arrange(1, 101)
+    "x": np.arrange(1, 101),
     "y": np.random.normal(0, 1, 100)
 })
 
