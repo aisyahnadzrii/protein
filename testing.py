@@ -10,7 +10,7 @@ st.title("Streamlit Research Study Dashboard")
 data = pd.Datadrame({
     "x": np.arrange(1, 101)
     "y": np.random.normal(0, 1, 100)
-))
+})
 
 #Add a slider to select a subset of the data
 subset_size = st.slider("Select the number of data points", 10, 100, 50)
