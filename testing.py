@@ -19,5 +19,4 @@ subset_size = st.slider("Select the number of data points", 10, 100, 50)
 plt.plot(data["x"][:subset_size], data["y"][:subset_size], "-o")
 st.pyplot(plt)
 
-# Add a text input for comments or notes
-notes = st.text_area("Add your comments or notes here")
+st.file_uploader(label, type=None, accept_multiple_files=False, key=None, help=None, on_change=None, args=None, kwargs=None, *, disabled=False, label_visibility="visible")
